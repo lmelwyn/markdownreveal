@@ -10,13 +10,13 @@ To see the example
 [https://markdownreveal.github.io/example/#/](https://markdownreveal.github.io/example/#/)
 
 ```
-docker run --rm -p 8123:8123 mdr:latest 
+docker run --rm -p 8123:8123 docker.io/melwyn/markdownreveal:latest 
 ```
 
 To modify the example clone the git repo and then 
 
 ```
-docker run --rm -p 8123:8123 -v $PWD:/home/user/example mdr:latest
+docker run --rm -p 8123:8123 -v $PWD:/home/user/example docker.io/melwyn/markdownreveal:latest
 ```
 
 and browse to http://localhost:8123
